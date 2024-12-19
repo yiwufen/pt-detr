@@ -97,6 +97,9 @@ Saving to /content/balloon/val/custom_val.json
 现在你拥有了一个coco格式的balloon数据集，位置在`/content`.
 
 # train
-ball_tuning.py 是微调detr，使用balloon数据集。
-ball_prompt_tuning.py 是在微调模型的基础上，进行提示微调。
-*_eval.py 是coco验证对于你训练的模型
+
+`ball_tuning.py` 是微调detr，使用balloon数据集。
+
+`ball_prompt_tuning.py` 是在微调模型的基础上，进行提示微调。
+
+`*_eval.py` 是coco验证对于你训练的模型
