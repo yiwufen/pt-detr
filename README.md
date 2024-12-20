@@ -15,6 +15,8 @@ Here we download the balloon dataset, hosted on Github.
 
 
 ### download, decompress the data
+[Fine-tuning DETR on a custom dataset (balloon)](https://github.com/NielsRogge/Transformers-Tutorials/blob/master/DETR/Fine_tuning_DetrForObjectDetection_on_custom_dataset_(balloon).ipynb "Fine-tuning DETR Notebook")
+
 ```
 wget https://github.com/matterport/Mask_RCNN/releases/download/v2.1/balloon_dataset.zip
 unzip balloon_dataset.zip
